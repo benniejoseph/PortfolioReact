@@ -4,61 +4,68 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
+import python from "../assets/python.png";
 import tailwind from "../assets/tailwind.png";
+import lwc from "../assets/lwc.png";
+import flutter from "../assets/flutter.svg";
 
 export const Experience = () => {
 
     const techs = [
         {
             id:1,
-            src:html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
-        },
-        {
-            id:2,
-            src:css,
-            title: 'css',
+            src:lwc,
+            title: 'LWC',
             style: 'shadow-blue-500'
         },
         {
+            id:1,
+            src: lwc,
+            title: 'Apex',
+            style: 'shadow-blue-500'
+        },
+        {
+            id:2,
+            src: javascript,
+            title: 'JavaScript',
+            style: 'shadow-yellow-500'
+        },
+        {
             id:3,
-            src:javascript,
-            title: 'javascript',
+            src: python,
+            title: 'Python',
             style: 'shadow-yellow-500'
         },
         {
             id:4,
-            src:reactImage,
+            src: html,
+            title: 'HTML',
+            style: 'shadow-orange-500'
+        },
+        {
+            id:5,
+            src: css,
+            title: 'css',
+            style: 'shadow-blue-500'
+        },
+        {
+            id:7,
+            src: flutter,
+            title: 'Flutter',
+            style: 'shadow-blue-600'
+        },
+        
+        {
+            id:8,
+            src: reactImage,
             title: 'React',
             style: 'shadow-blue-600'
         },
         {
-            id:5,
-            src:tailwind,
+            id:9,
+            src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-400'
-        },
-        {
-            id:6,
-            src:graphql,
-            title: 'GraphQl',
-            style: 'shadow-pink-400'
-        },
-        {
-            id:7,
-            src:nextjs,
-            title: 'NextJs',
-            style: 'shadow-white'
-        },
-        {
-            id:7,
-            src:github,
-            title: 'NextJs',
-            style: 'shadow-white'
         },
     ]
   return (
